@@ -4,8 +4,8 @@
 # Use as:
 # from printKeys import printKeys
 
-# Recursively prints ".keys()" for objects mixed with dictionaries, lists, 
-# integers, longs, floats, or strings. 
+# Basically a depth first search that prints ".keys()" for objects mixed 
+# with dictionaries, lists, integers, longs, floats, or strings. 
 def printKeys(mixed_object, spacing = 0):
   tab = ""
   for i in range(spacing):
